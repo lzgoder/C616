@@ -18,7 +18,7 @@ public class LoadingActivity extends Activity {
         final View view = View.inflate(this, R.layout.loading, null);
         setContentView(view);
 
-        //TODO 渐变展示启动屏
+        //TODO 渐变展示启动屏（1319837080）
         AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
         //设置时间
         aa.setDuration(2000);
