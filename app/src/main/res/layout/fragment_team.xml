@@ -1,0 +1,64 @@
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.algg.c616.activity.HomeActivity">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <LinearLayout
+            android:id="@+id/s888"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_team_bar">
+
+            <ImageView
+                android:id="@+id/s666"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/ic_team_bar" />
+
+            <ImageView
+                android:id="@+id/s777"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_team_bar2" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/s999"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_below="@id/s888" >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#5555"
+            android:layout_below="@id/s999" >
+        </ImageView>
+
+    </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="120dp">
+
+            </ListView>
+    </RelativeLayout>
+

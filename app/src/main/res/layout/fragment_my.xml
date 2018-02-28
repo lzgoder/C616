@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp"/>
+
+    <RelativeLayout
+        android:id="@+id/my_me"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/coloranan"
+        >
+
+        <ImageView
+            android:id="@+id/my_me_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_myyy" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/my_me_ic"
+            android:text="欢迎你，"
+            android:textSize="30dp"
+            android:id="@+id/textView332" />
+
+        <TextView
+            android:id="@+id/textView333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="75dp"
+            android:text="？？？"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp"/>
+<RelativeLayout
+    android:id="@+id/my_join"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/coloranan"
+    >
+
+    <ImageView
+        android:id="@+id/my_me_ic1111111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:src="@mipmap/ic_join" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/my_me_ic1111111"
+        android:text="加入我们"
+        android:textSize="18dp" />
+
+</RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"/>
+
+    <RelativeLayout
+        android:id="@+id/my_red"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/coloranan"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="show">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_rebbag" />
+
+        <TextView
+            android:id="@+id/my_settig11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="天天领红包"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <RelativeLayout
+        android:id="@+id/my_help"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/coloranan">
+
+        <ImageView
+            android:id="@+id/imageView234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_help" />
+
+        <TextView
+            android:id="@+id/my_help11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/imageView234"
+            android:text="帮助与反馈"
+            android:textSize="18dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/my_help11"
+            android:layout_marginEnd="16dp"
+            android:src="@mipmap/ic_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <RelativeLayout
+        android:id="@+id/my_upload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/coloranan">
+
+        <ImageView
+            android:id="@+id/s233"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_update" />
+
+        <TextView
+            android:id="@+id/my_upload11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/s233"
+            android:text="检查更新"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <RelativeLayout
+        android:id="@+id/my_webs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/coloranan">
+
+        <ImageView
+            android:id="@+id/s2332"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/s2332"
+            android:text="官方网站"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/my_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/coloranan"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/ic_out" />
+
+        <TextView
+            android:id="@+id/my_setting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/imageView23"
+            android:text="退出登陆"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

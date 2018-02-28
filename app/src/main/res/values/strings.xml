@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">C616</string>
+    <string name="rt">C616</string>
+    <drawable name="black">#555</drawable>
+    <drawable name="white">#ffffff</drawable>
+
+    <string name="title_activity_user">UserActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
